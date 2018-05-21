@@ -1,0 +1,10 @@
+dig = input('digite algo: ')
+print('o tipo primitivo dessa variavel é ', type(dig))
+print('so tem espeço? ', dig.isspace())
+print('é um numero inteiro ', dig.isnumeric())
+print('é uma alfa ', dig.isalpha())
+print('é uma alfanumerico ', dig.isalnum())
+print('esta em maiusculo ', dig.isupper())
+print('esta em minuscula ', dig.islower())
+print('esta capitalizada ', dig.istitle())
+

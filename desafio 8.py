@@ -1,0 +1,5 @@
+metro = float(input('digite quantos metros quer parciar: '))
+centimetros = float(metro*100)
+milimetros = float(metro*1000)
+kilometros = float(metro/1000)
+print('{} metro(s) possui {:.2f} centimetros e {:.2f} milimetros e {} KM.'.format(metro, centimetros, milimetros, kilometros))
